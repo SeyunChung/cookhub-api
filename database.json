@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Seyun Chung",
+      "email": "seyun@email.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Mimi Cho",
+      "email": "mimi@email.com"
+    },
+    {
+      "email": "king@email.com",
+      "fullName": "Cook King",
+      "isStaff": false,
+      "id": 3
+    },
+    {
+      "email": "sailormoon@email.com",
+      "fullName": "sailormoon Chung",
+      "isStaff": true,
+      "id": 4
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "recipeName": "Bulgogi",
+      "description": "Bulgogi is a popular Korean dish made with thinly sliced marinated beef that is grilled or stir-fried. It is known for its deliciously sweet and savory flavors.",
+      "instruction": "1. In a bowl, combine soy sauce, brown sugar, sesame oil, garlic, ginger, rice wine, sesame seeds, and green onions to make the marinade.\n2. Add the sliced beef to the marinade and mix well to coat. Let it marinate for at least 30 minutes, or refrigerate overnight for maximum flavor.\n3. Heat vegetable oil in a skillet or grill pan over medium-high heat.\n4. Add the marinated beef to the hot pan and cook for 2-3 minutes per side, or until cooked to your desired doneness.\n5. Serve the bulgogi with steamed rice and your choice of side dishes.",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "recipeName": "Kimchi",
+      "description": "Kimchi is a popular Korean side dish made from fermented vegetables, most commonly napa cabbage and radishes. It has a tangy and spicy flavor and is often enjoyed with rice or used as a topping in various dishes.",
+      "instruction": "1. Cut the napa cabbage into quarters and remove the core. Slice each quarter into bite-sized pieces. Dissolve the sea salt in water and soak the cabbage in the brine for 2 hours.\n2. Rinse the cabbage thoroughly and drain well. In a large bowl, combine the cabbage with ginger, garlic, Korean red pepper flakes, green onions, fish sauce, sugar, and rice vinegar.\n3. Mix the ingredients well, ensuring that the cabbage is coated evenly. Transfer the mixture into a clean glass jar, pressing down firmly to remove any air bubbles.\n4. Leave the jar at room temperature for 1-2 days to allow the fermentation process to occur. Afterward, store the kimchi in the refrigerator.\n5. The kimchi can be enjoyed immediately, but its flavor will continue to develop over time. It can be stored in the refrigerator for up to several months.",
+      "userId": 2
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "ingredientName": "beef"
+    },
+    {
+      "id": 2,
+      "ingredientName": "soy sauce"
+    },
+    {
+      "id": 3,
+      "ingredientName": "brown sugar"
+    },
+    {
+      "id": 4,
+      "ingredientName": "sesame oil"
+    },
+    {
+      "id": 5,
+      "ingredientName": "garlic"
+    },
+    {
+      "id": 6,
+      "ingredientName": "ginger"
+    },
+    {
+      "id": 7,
+      "ingredientName": "rice wine"
+    },
+    {
+      "id": 8,
+      "ingredientName": "sesame seeds"
+    },
+    {
+      "id": 9,
+      "ingredientName": "green onions"
+    },
+    {
+      "id": 10,
+      "ingredientName": "vegetable oil"
+    },
+    {
+      "id": 11,
+      "ingredientName": "napa cabbage"
+    },
+    {
+      "id": 12,
+      "ingredientName": "coarse sea salt"
+    },
+    {
+      "id": 13,
+      "ingredientName": "grated ginger"
+    },
+    {
+      "id": 14,
+      "ingredientName": "garlic"
+    },
+    {
+      "id": 15,
+      "ingredientName": "Korean red pepper flakes"
+    },
+    {
+      "id": 16,
+      "ingredientName": "green onions"
+    },
+    {
+      "id": 17,
+      "ingredientName": "fish sauce"
+    },
+    {
+      "id": 18,
+      "ingredientName": "sugar"
+    },
+    {
+      "id": 19,
+      "ingredientName": "rice vinegar"
+    }
+  ],
+  "recipeIngredients": [
+    {
+      "id": 1,
+      "recipeId": 1,
+      "ingredientId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": 2,
+      "recipeId": 2,
+      "ingredientId": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "ingredientQuantities": [
+    {
+      "id": 1,
+      "ingredientQuantity": "1/4"
+    },
+    {
+      "id": 2,
+      "ingredientQuantity": "1/2"
+    },
+    {
+      "id": 3,
+      "ingredientQuantity": "1"
+    },
+    {
+      "id": 4,
+      "ingredientQuantity": "1.5"
+    },
+    {
+      "id": 5,
+      "ingredientQuantity": "2"
+    },
+    {
+      "id": 6,
+      "ingredientQuantity": "2.5"
+    },
+    {
+      "id": 7,
+      "ingredientQuantity": "3"
+    },
+    {
+      "id": 8,
+      "ingredientQuantity": "3.5"
+    },
+    {
+      "id": 9,
+      "ingredientQuantity": "4"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "unitName": "pound/pounds"
+    },
+    {
+      "id": 2,
+      "unitName": "cup/cups"
+    },
+    {
+      "id": 3,
+      "unitName": "tablespoon/tablespoons"
+    },
+    {
+      "id": 4,
+      "unitName": ""
+    }
+  ]
+}
