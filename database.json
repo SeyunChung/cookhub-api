@@ -9,92 +9,65 @@
       "id": 2,
       "fullName": "Mimi Cho",
       "email": "mimi@email.com"
-    },
-    {
-      "email": "king@email.com",
-      "fullName": "Cook King",
-      "isStaff": false,
-      "id": 3
-    },
-    {
-      "email": "sailormoon@email.com",
-      "fullName": "sailormoon Chung",
-      "isStaff": true,
-      "id": 4
     }
   ],
-  "recipes": [
-    {
-      "id": 1,
-      "recipeName": "Bulgogi",
-      "description": "Bulgogi is a popular Korean dish made with thinly sliced marinated beef that is grilled or stir-fried. It is known for its deliciously sweet and savory flavors.",
-      "instruction": "1. In a bowl, combine soy sauce, brown sugar, sesame oil, garlic, ginger, rice wine, sesame seeds, and green onions to make the marinade.\n2. Add the sliced beef to the marinade and mix well to coat. Let it marinate for at least 30 minutes, or refrigerate overnight for maximum flavor.\n3. Heat vegetable oil in a skillet or grill pan over medium-high heat.\n4. Add the marinated beef to the hot pan and cook for 2-3 minutes per side, or until cooked to your desired doneness.\n5. Serve the bulgogi with steamed rice and your choice of side dishes.",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "recipeName": "Kimchi",
-      "description": "Kimchi is a popular Korean side dish made from fermented vegetables, most commonly napa cabbage and radishes. It has a tangy and spicy flavor and is often enjoyed with rice or used as a topping in various dishes.",
-      "instruction": "1. Cut the napa cabbage into quarters and remove the core. Slice each quarter into bite-sized pieces. Dissolve the sea salt in water and soak the cabbage in the brine for 2 hours.\n2. Rinse the cabbage thoroughly and drain well. In a large bowl, combine the cabbage with ginger, garlic, Korean red pepper flakes, green onions, fish sauce, sugar, and rice vinegar.\n3. Mix the ingredients well, ensuring that the cabbage is coated evenly. Transfer the mixture into a clean glass jar, pressing down firmly to remove any air bubbles.\n4. Leave the jar at room temperature for 1-2 days to allow the fermentation process to occur. Afterward, store the kimchi in the refrigerator.\n5. The kimchi can be enjoyed immediately, but its flavor will continue to develop over time. It can be stored in the refrigerator for up to several months.",
-      "userId": 2
-    }
-  ],
+  "recipes": [],
   "ingredients": [
     {
       "id": 1,
-      "ingredientName": "beef"
+      "ingredientName": "Beef"
     },
     {
       "id": 2,
-      "ingredientName": "soy sauce"
+      "ingredientName": "Soy sauce"
     },
     {
       "id": 3,
-      "ingredientName": "brown sugar"
+      "ingredientName": "Sugar"
     },
     {
       "id": 4,
-      "ingredientName": "sesame oil"
+      "ingredientName": "Sesame oil"
     },
     {
       "id": 5,
-      "ingredientName": "garlic"
+      "ingredientName": "Radish"
     },
     {
       "id": 6,
-      "ingredientName": "ginger"
+      "ingredientName": "Ginger"
     },
     {
       "id": 7,
-      "ingredientName": "rice wine"
+      "ingredientName": "Cooking wine"
     },
     {
       "id": 8,
-      "ingredientName": "sesame seeds"
+      "ingredientName": "Sesame seeds"
     },
     {
       "id": 9,
-      "ingredientName": "green onions"
+      "ingredientName": "Green onions"
     },
     {
       "id": 10,
-      "ingredientName": "vegetable oil"
+      "ingredientName": "Oil"
     },
     {
       "id": 11,
-      "ingredientName": "napa cabbage"
+      "ingredientName": "Napa cabbage"
     },
     {
       "id": 12,
-      "ingredientName": "coarse sea salt"
+      "ingredientName": "Coarse sea salt"
     },
     {
       "id": 13,
-      "ingredientName": "grated ginger"
+      "ingredientName": "Onion"
     },
     {
       "id": 14,
-      "ingredientName": "garlic"
+      "ingredientName": "Garlic"
     },
     {
       "id": 15,
@@ -102,54 +75,266 @@
     },
     {
       "id": 16,
-      "ingredientName": "green onions"
+      "ingredientName": "Potato"
     },
     {
       "id": 17,
-      "ingredientName": "fish sauce"
+      "ingredientName": "Fish sauce"
     },
     {
       "id": 18,
-      "ingredientName": "sugar"
+      "ingredientName": "Carrot"
     },
     {
       "id": 19,
-      "ingredientName": "rice vinegar"
-    }
-  ],
-  "recipeIngredients": [
-    {
-      "id": 1,
-      "recipeId": 1,
-      "ingredientId": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ]
+      "ingredientName": "Vinegar"
     },
     {
-      "id": 2,
-      "recipeId": 2,
-      "ingredientId": [
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19
-      ]
+      "id": 20,
+      "ingredientName": "Mushroom"
+    },
+    {
+      "id": 21,
+      "ingredientName": "Green cabbage"
+    },
+    {
+      "id": 22,
+      "ingredientName": "Tofu"
+    },
+    {
+      "id": 23,
+      "ingredientName": "Egg"
+    },
+    {
+      "id": 24,
+      "ingredientName": "Ground meat"
+    },
+    {
+      "id": 25,
+      "ingredientName": "Rice"
+    },
+    {
+      "id": 26,
+      "ingredientName": "Soybean paste"
+    },
+    {
+      "id": 27,
+      "ingredientName": "Red pepper paste"
+    },
+    {
+      "id": 28,
+      "ingredientName": "Salt"
+    },
+    {
+      "id": 29,
+      "ingredientName": "Corn syrup"
+    },
+    {
+      "id": 30,
+      "ingredientName": "Rice water"
+    },
+    {
+      "id": 31,
+      "ingredientName": "Pumpkin"
+    },
+    {
+      "id": 32,
+      "ingredientName": "Spinach"
+    },
+    {
+      "id": 33,
+      "ingredientName": "Glass noodles"
+    },
+    {
+      "id": 34,
+      "ingredientName": "Bean sprouts"
+    },
+    {
+      "id": 35,
+      "ingredientName": "Chives"
+    },
+    {
+      "id": 36,
+      "ingredientName": "Bell pepper"
+    },
+    {
+      "id": 37,
+      "ingredientName": "Zucchini"
+    },
+    {
+      "id": 38,
+      "ingredientName": "Eggplant"
+    },
+    {
+      "id": 39,
+      "ingredientName": "Seaweed"
+    },
+    {
+      "id": 40,
+      "ingredientName": "Cucumber"
+    },
+    {
+      "id": 41,
+      "ingredientName": "Bamboo shoots"
+    },
+    {
+      "id": 42,
+      "ingredientName": "Lotus root"
+    },
+    {
+      "id": 43,
+      "ingredientName": "Korean sweet potato"
+    },
+    {
+      "id": 44,
+      "ingredientName": "Korean pear"
+    },
+    {
+      "id": 45,
+      "ingredientName": "Apple"
+    },
+    {
+      "id": 46,
+      "ingredientName": "Dried anchovies"
+    },
+    {
+      "id": 47,
+      "ingredientName": "Dried shiitake mushrooms"
+    },
+    {
+      "id": 48,
+      "ingredientName": "Dried pollack"
+    },
+    {
+      "id": 49,
+      "ingredientName": "Dried squid"
+    },
+    {
+      "id": 50,
+      "ingredientName": "Dried shrimp"
+    },
+    {
+      "id": 51,
+      "ingredientName": "Clams"
+    },
+    {
+      "id": 52,
+      "ingredientName": "Mussels"
+    },
+    {
+      "id": 53,
+      "ingredientName": "Squid"
+    },
+    {
+      "id": 54,
+      "ingredientName": "Chicken"
+    },
+    {
+      "id": 55,
+      "ingredientName": "Pork"
+    },
+    {
+      "id": 56,
+      "ingredientName": "Crab"
+    },
+    {
+      "id": 57,
+      "ingredientName": "Tuna"
+    },
+    {
+      "id": 58,
+      "ingredientName": "Abalone"
+    },
+    {
+      "id": 59,
+      "ingredientName": "Chestnuts"
+    },
+    {
+      "id": 60,
+      "ingredientName": "Soybean sprouts"
+    },
+    {
+      "id": 61,
+      "ingredientName": "Pine nuts"
+    },
+    {
+      "id": 62,
+      "ingredientName": "Peanuts"
+    },
+    {
+      "id": 63,
+      "ingredientName": "Walnuts"
+    },
+    {
+      "id": 64,
+      "ingredientName": "Black beans"
+    },
+    {
+      "id": 65,
+      "ingredientName": "Rice cakes"
+    },
+    {
+      "id": 66,
+      "ingredientName": "Sweet rice flour"
+    },
+    {
+      "id": 67,
+      "ingredientName": "Wheat flour"
+    },
+    {
+      "id": 68,
+      "ingredientName": "Buckwheat noodles"
+    },
+    {
+      "id": 69,
+      "ingredientName": "Kimchi"
+    },
+    {
+      "id": 70,
+      "ingredientName": "Pickled radish"
+    },
+    {
+      "id": 71,
+      "ingredientName": "Plum extract"
+    },
+    {
+      "id": 72,
+      "ingredientName": "Dried red dates"
+    },
+    {
+      "id": 73,
+      "ingredientName": "Cinnamon"
+    },
+    {
+      "id": 74,
+      "ingredientName": "Basil"
+    },
+    {
+      "id": 75,
+      "ingredientName": "Cornstarch"
+    },
+    {
+      "id": 76,
+      "ingredientName": "Ssamjang"
+    },
+    {
+      "id": 77,
+      "ingredientName": "Mackerel"
+    },
+    {
+      "id": 78,
+      "ingredientName": "Beef bone broth"
+    },
+    {
+      "id": 79,
+      "ingredientName": "Chicken broth"
+    },
+    {
+      "id": 80,
+      "ingredientName": "Water"
     }
   ],
+  "recipeIngredients": [],
   "ingredientQuantities": [
     {
       "id": 1,
@@ -191,19 +376,43 @@
   "units": [
     {
       "id": 1,
-      "unitName": "pound/pounds"
+      "unitName": "Pounds (lb)"
     },
     {
       "id": 2,
-      "unitName": "cup/cups"
+      "unitName": "Cups"
     },
     {
       "id": 3,
-      "unitName": "tablespoon/tablespoons"
+      "unitName": "Tablespoons (tbsp)"
     },
     {
       "id": 4,
-      "unitName": ""
+      "unitName": "Milliliters (ml)"
+    },
+    {
+      "id": 5,
+      "unitName": "Grams (g)"
+    },
+    {
+      "id": 6,
+      "unitName": "Fluid ounces (fl oz)"
+    },
+    {
+      "id": 7,
+      "unitName": "Ounces (oz)"
+    },
+    {
+      "id": 8,
+      "unitName": "Piece"
+    },
+    {
+      "id": 9,
+      "unitName": "Whole"
+    },
+    {
+      "id": 10,
+      "unitName": "Pinch"
     }
   ]
 }
