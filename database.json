@@ -11,7 +11,18 @@
       "email": "mimi@email.com"
     }
   ],
-  "recipes": [],
+  "recipes": [
+    {
+      "id": 1,
+      "recipeName": "Bulgogi",
+      "imageURL": "https://i.pinimg.com/550x/47/83/89/478389258906d042de132a9cb0e75ff4.jpg",
+      "description": "Bulgogi is a popular Korean dish made with thinly sliced marinated beef that is grilled or stir-fried. It is known for its deliciously sweet and savory flavors.",
+      "instruction": " Prepare the vegetables: blanch the bean sprouts in boiling water for 1 minute, then rinse with cold water and drain. Blanch the spinach in boiling water for 30 seconds, then rinse with cold water and squeeze out excess water. Mix the spinach with 1 clove of minced garlic, 1 teaspoon sesame oil, and a pinch of salt. Set aside. Marinate the beef with soy sauce, minced garlic, sesame oil, salt, and pepper. Set aside.  Heat 1 tablespoon of vegetable oil in a pan over medium heat. Stir-fry the carrots for 2-3 minutes until slightly softened. Remove from the pan and set aside. Repeat the process for the zucchini, mushrooms, and bean sprouts, cooking each vegetable separately. Set aside.  In the same pan, add another tablespoon of vegetable oil and stir-fry the marinated beef until cooked through. Set aside.  In a separate pan, fry the eggs sunny-side up or according to your preference.  To assemble the bibimbap, divide the cooked rice among four bowls. Arrange the cooked vegetables and beef on top of the rice. Pla",
+      "ingredientId": [
+        1
+      ]
+    }
+  ],
   "ingredients": [
     {
       "id": 1,
@@ -334,7 +345,15 @@
       "ingredientName": "Water"
     }
   ],
-  "recipeIngredients": [],
+  "recipeIngredients": [
+    {
+      "recipeId": 1,
+      "ingredientId": [
+        1
+      ],
+      "id": 1
+    }
+  ],
   "ingredientQuantities": [
     {
       "id": 1,
